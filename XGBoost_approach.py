@@ -127,7 +127,6 @@ rms = sqrt(mean_squared_error(y_test, y_pred)) # Calculating root mear square er
 print(rms)
 
 '''
-Save Model
 from sklearn.externals import joblib
 # save the model to disk
 filename = 'model_xgbreg.sav'
