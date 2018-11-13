@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('Train.csv')
+dataset = pd.read_csv('Dataset\\Train.csv')
 y = dataset.iloc[:, -1].values # dependent values
 dataset.drop(['Item_Outlet_Sales'], axis =1, inplace = True )
 #check the data
