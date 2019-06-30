@@ -129,6 +129,6 @@ print(rms)
 '''
 from sklearn.externals import joblib
 # save the model to disk
-filename = 'model_xgbreg.sav'
+filename = 'model_linreg.sav'
 joblib.dump(regressor, filename)'''
  
